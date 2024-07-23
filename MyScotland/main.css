@@ -4,6 +4,7 @@
 
 img {
     width: 100%;
+    border-radius: 5px;
 }
 
 .hero-image {
@@ -29,6 +30,7 @@ img {
     width: 80%;
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 .info {
@@ -38,4 +40,17 @@ img {
 .three-column {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.card {
+    background-color:rgb(0, 2, 143);
+}
+
+.card-text {
+    text-align: center;
+    color: whitesmoke;
 }
