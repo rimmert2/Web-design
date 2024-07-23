@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    background-color: #daf0f7;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+footer {
+    background-color: rgb(0, 162, 255);
+    color: #daf0f7;
+    padding: 30px 0;
+}
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+#main_image {
+    width: 100%;
+}
+.icon {
+    margin-top: 40px;
+    width: 30%;
+}
+.link {
+    font-size: 30px;
+}
+nav {
+    background-color: #167187;
+}
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 120px;
+    padding: 15px 0;
+    color: white;
+    font-weight: bold;
+}
+#button {
+    border-radius: 4px;
+    background-color: #167187;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 10px;
+    color: white;
+    margin: 15px;
+  
+}
+#hero_image {
+    background-image: url(ocean.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    padding-top: 100px;
+}
+#Why_image {
+    background-image: url(net.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    padding-top: 100px;
+}
+#How_image {
+    background-image: url(Turtle.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    padding-top: 100px;
+}
